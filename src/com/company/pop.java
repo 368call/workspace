@@ -48,4 +48,18 @@ class pop{
         //右边
         quickSort(a,j+1,right);
     }
+
+    public static  void  InsertSort(int [] a){
+        int temp;
+        for (int i = 1; i < a.length-1; i++) {
+            for (int j = i+1; j >0; j--) {
+                if (a[j]<a[j-1])
+                {
+                    temp=a[j];
+                    a[j]=a[j-1];
+                    a[j-1]=temp;
+                }
+            }
+        }
+    }
 }
