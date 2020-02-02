@@ -62,4 +62,10 @@ class pop{
             }
         }
     }
+
+    public static void SheelSort(int []a){
+
+
+
+    }
 }
