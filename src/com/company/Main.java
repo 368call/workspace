@@ -8,6 +8,8 @@ public class Main {
         int[] a1={3,5,9,4,6,7,1,0,5};
         int[] a2={3,5,9,4,6,7,1,0,5};
         int[] a3={3,5,9,4,6,7,1,0,5};
+        int[] a4={3,5,9,4,6,7,1,0,5};
+        int[] a5={3,5,9,4,6,7,1,0,5};
         pop.laobiao1pop(a);
         for (int i = 0; i <a.length ; i++) {
             System.out.print(a[i]);
@@ -27,6 +29,17 @@ public class Main {
         pop.shellSort(a3);
         for (int i = 0; i <a3.length ; i++) {
             System.out.print(a3[i]);
+        }
+        System.out.println();
+        pop.shellSort(a4);
+        for (int i = 0; i <a4.length ; i++) {
+            System.out.print(a4[i]);
+        }
+
+        System.out.println();
+        pop.heapSort(a5,a5.length);
+        for (int i = 0; i <a5.length ; i++) {
+            System.out.print(a5[i]);
         }
     }
 }

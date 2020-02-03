@@ -128,4 +128,54 @@ class pop{
            }
 
    }
+
+   //堆排序
+    public static  void heapSort(int [] a,int n){
+        build_heap(a,n);
+
+        for (int i = n-1; i >0 ; i--) {
+            int temp=a[i];
+            a[i]=a[0];
+            a[0]=temp;
+            heapify(a,i,0);
+        }
+
+    }
+    //创建堆
+    public  static void build_heap(int [] a,int n){
+       int last=n-1;
+       int parent=(last-1)/2;
+
+        for (int i = parent; i >=0; i--) {
+            heapify(a,n,i);
+        }
+    }
+    //调整堆
+    public static  void heapify(int [] a,int n,int i){
+       //递归出口
+        if (i>n)
+            return;
+       int max=i;
+       //右子节点
+        int c1=i*2+1;
+        //左子节点
+        int c2=i*2+2;
+    //找一个树的最大节点
+        if (c1<n&&a[c1]>a[max])
+        {
+            max=c1;
+        }
+        if (c2<n&&a[c2]>a[max])
+        {
+            max=c2;
+        }
+        //交换
+        if (max!=i)
+        {
+            int temp=a[max];
+            a[max]=a[i];
+            a[i]=temp;
+            heapify(a,n,max);
+        }
+    }
 }
