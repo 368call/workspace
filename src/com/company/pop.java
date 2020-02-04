@@ -81,33 +81,23 @@ class pop{
     }*/
 
 
-   public static void shellSort(int[] data)
-   {
-       int j = 0;
-       int temp = 0;
-       //每次将步长缩短为原来的一半
-       for (int increment = data.length / 2; increment > 0; increment /= 2)
-       {
-           for (int i = increment; i < data.length; i++)
-           {
-               temp = data[i];
-               for (j = i; j >= increment; j -= increment)
-               {
-                   if(temp < data[j - increment])//如想从小到大排只需修改这里
-                   {
-                       data[j] = data[j - increment];
-                   }
-                   else
-                   {
-                       break;
-                   }
+    public static void shellSort(int[] a) {
+        int length = a.length;
+        int h = 1;
+        while (h < length / 3) h = 3 * h + 1;
+        for (; h >= 1; h /= 3) {
+            for (int i = 0; i < a.length - h; i += h) {
+                for (int j = i + h; j > 0; j -= h) {
+                    if (a[j] < a[j - h]) {
+                        int temp = a[j];
+                        a[j] = a[j - h];
+                        a[j - h] = temp;
+                    }
+                }
+            }
+        }
+    }
 
-               }
-               data[j] = temp;
-           }
-
-       }
-   }
    //简单选择排序
    public static void  xuanzheSort(int [] a){
 
@@ -176,6 +166,31 @@ class pop{
             a[max]=a[i];
             a[i]=temp;
             heapify(a,n,max);
+        }
+    }
+
+    public static void sort(int[] a,int left,int right){
+        if (left==right)
+            return;
+        int mid=left+(right-left)/2;
+        sort(a,left,mid);
+        sort(a,mid+1,right);
+        marge(a,left,mid+1,right);
+    }
+    public static void marge(int [] a, int leftpart, int rightpart, int rightBound) {
+        int mid = rightpart - 1;
+        int left = leftpart;
+        int right = rightpart;
+        int[] temp = new int[rightBound - leftpart + 1];
+        int c = 0;
+
+        while (left <= mid && right <= rightBound) {
+            temp[c++] = a[left] <= a[right] ? a[left++] : a[right++];
+        }
+        while (left <= mid) temp[c++] = a[left++];
+        while (right <= rightBound) temp[c++] = a[right++];
+        for (int i = 0; i < temp.length; i++) {
+            a[leftpart+i] = temp[i];
         }
     }
 }
