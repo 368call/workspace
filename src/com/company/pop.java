@@ -1,6 +1,6 @@
 package com.company;
 
-class Sort {
+class pop{
     //冒泡排序
     public static void laobiao1pop(int[] a){
 
