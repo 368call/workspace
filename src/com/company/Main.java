@@ -1,5 +1,7 @@
 package com.company;
 
+import com.company.check2.Fine;
+
 public class Main {
 
 
@@ -11,7 +13,10 @@ public class Main {
         int[] a4={3,5,9,4,6,7,1,0,5};
         int[] a5={3,5,9,4,6,7,1,0,5};
         int[] a6={3,5,9,4,6,7,1,0,5};
-
+        int [][] s7={{1,2,8,9},
+                {2,4,9,12},
+                {4,7,10,13},
+                {6,8,11,15}};
         pop.laobiao1pop(a);
         for (int i = 0; i <a.length ; i++) {
             System.out.print(a[i]);
@@ -50,6 +55,7 @@ public class Main {
         for (int i = 0; i <a6.length ; i++) {
             System.out.print(a6[i]);
         }
+System.out.println( Fine.fine(s7,9,4,4));
     }
 }
 
