@@ -1,5 +1,7 @@
 package com.company;
 
+import com.company.singlton.singlton01;
+
 public class Main {
 
 
@@ -12,44 +14,53 @@ public class Main {
         int[] a5={3,5,9,4,6,7,1,0,5};
         int[] a6={3,5,9,4,6,7,1,0,5};
 
-        pop.laobiao1pop(a);
+        Sort.laobiao1pop(a);
         for (int i = 0; i <a.length ; i++) {
             System.out.print(a[i]);
         }
         System.out.println();
-        pop.quickSort(a1,0,a1.length-1);
+        Sort.quickSort(a1,0,a1.length-1);
         for (int i = 0; i <a1.length ; i++) {
             System.out.print(a1[i]);
         }
         System.out.println();
-        pop.InsertSort(a2);
+        Sort.InsertSort(a2);
         for (int i = 0; i <a2.length ; i++) {
             System.out.print(a2[i]);
         }
 
         System.out.println();
-        pop.shellSort(a3);
+        Sort.shellSort(a3);
         for (int i = 0; i <a3.length ; i++) {
             System.out.print(a3[i]);
         }
         System.out.println();
-        pop.shellSort(a4);
+        Sort.shellSort(a4);
         for (int i = 0; i <a4.length ; i++) {
             System.out.print(a4[i]);
         }
 
         System.out.println();
-        pop.heapSort(a5,a5.length);
+        Sort.heapSort(a5,a5.length);
         for (int i = 0; i <a5.length ; i++) {
             System.out.print(a5[i]);
         }
 
 
-        pop.sort(a6,0,a.length-1);
+        Sort.sort(a6,0,a.length-1);
 
         for (int i = 0; i <a6.length ; i++) {
             System.out.print(a6[i]);
         }
+        singlton01 s=singlton01.getSinglton();
+        singlton01 s1=singlton01.getSinglton();
+        System.out.println(s);
+        System.out.println(s1);
     }
+
+
+
+
+
 }
 
