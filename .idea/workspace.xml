@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="daab75fe-a4a7-4dad-ad9d-d04ce5ae7bca" name="Default Changelist" comment="增加插入排序：希尔排序完成">
-      <change afterPath="$PROJECT_DIR$/../mybatis代码/coder/mybatis-study/mybatis-01/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis代码/coder/mybatis-study/mybatis-01/src/main/java/com/liu/dao/Utils/MybatisUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis代码/coder/mybatis-study/mybatis-01/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/List/ListMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/List/PrintList_Fan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../workspace/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../workspace/src/com/company/pop.java" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/src/com/company/pop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/pop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/pop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace01" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,29 +41,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1381">
+            <state relative-caret-position="210">
               <caret line="7" column="42" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/List/PrintList_Fan.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-              <folding>
-                <element signature="e#308#318#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/company/List/ListMain.java">
+        <entry file="file://$PROJECT_DIR$/src/com/company/check2/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+            <state relative-caret-position="270">
+              <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -99,6 +83,24 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/singlton/singlton01.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/singlton/singleton02.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -123,13 +125,11 @@
         <option value="$PROJECT_DIR$/src/com/company/Main.java" />
         <option value="$PROJECT_DIR$/src/com/company/string_replace/replace.java" />
         <option value="$PROJECT_DIR$/src/com/company/check2/main.java" />
-        <option value="$PROJECT_DIR$/src/com/company/List/ListMain.java" />
-        <option value="$PROJECT_DIR$/src/com/company/List/PrintList_Fan.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-4" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-5" />
     <option name="y" value="-10" />
     <option name="width" value="1750" />
     <option name="height" value="1055" />
@@ -140,43 +140,29 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="workspace01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="workspace01" type="462c0819:PsiDirectoryNode" />
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="workspace01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="workspace01" type="462c0819:PsiDirectoryNode" />
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="workspace01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="workspace01" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workspace01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="workspace01" type="462c0819:PsiDirectoryNode" />
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="company" type="462c0819:PsiDirectoryNode" />
-              <item name="List" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workspace01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="workspace01" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
-              <item name="string_replace" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -189,8 +175,8 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../新建文件夹" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="OPEN_URL_DIALOG">
@@ -209,20 +195,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ListMain">
-    <configuration name="ListMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.List.ListMain" />
-      <module name="workspace" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.List.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
       <module name="workspace" />
@@ -248,7 +221,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ListMain" />
         <item itemvalue="Application.main" />
         <item itemvalue="Application.Main" />
       </list>
@@ -271,8 +243,13 @@
       <workItem from="1580662114215" duration="3462000" />
       <workItem from="1580705790336" duration="4314000" />
       <workItem from="1580782007275" duration="5588000" />
-      <workItem from="1580954197044" duration="3884000" />
-      <workItem from="1581753208703" duration="4426000" />
+      <workItem from="1580954197044" duration="4031000" />
+      <workItem from="1581867098940" duration="178000" />
+      <workItem from="1581868837798" duration="37000" />
+      <workItem from="1581868890932" duration="2835000" />
+      <workItem from="1581871859189" duration="616000" />
+      <workItem from="1581872549269" duration="695000" />
+      <workItem from="1581910475914" duration="598000" />
     </task>
     <task id="LOCAL-00001" summary="增加插入排序：直接插入排序">
       <created>1580625391521</created>
@@ -330,11 +307,18 @@
       <option name="project" value="LOCAL" />
       <updated>1580900471735</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="字符串空格替换">
+      <created>1580958353194</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1580958353194</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47994000" />
+    <option name="totallyTimeSpent" value="48674000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -346,10 +330,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27815014" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29825738" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -358,16 +342,16 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32719547" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32719547" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32831326" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.28895184" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.6936997" visible="true" weight="0.28611898" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3298193" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="11" sideWeight="0.30630028" side_tool="true" visible="true" weight="0.28611898" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3298193" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -433,7 +417,8 @@
     <MESSAGE value="单例模式" />
     <MESSAGE value="横竖有序的二维数组查找关键字&#10;剑指offer第三题" />
     <MESSAGE value="字符串空格替换，使用StringBuffer" />
-    <option name="LAST_COMMIT_MESSAGE" value="字符串空格替换，使用StringBuffer" />
+    <MESSAGE value="字符串空格替换" />
+    <option name="LAST_COMMIT_MESSAGE" value="字符串空格替换" />
   </component>
   <component name="editorHistoryManager">
     <entry file="https://github.com/first-develop/shoppingMall.git">
@@ -442,12 +427,9 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/4d80c8f3-3d17-4fc2-a1c8-5e471db6f101/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/singlton/singlton01.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/company/singlton/singleton02.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/company/check2/main.java" />
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1381">
+        <state relative-caret-position="210">
           <caret line="7" column="42" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="42" />
         </state>
       </provider>
@@ -473,20 +455,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/List/PrintList_Fan.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/singlton/singlton01.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-          <folding>
-            <element signature="e#308#318#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="30">
+          <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/List/ListMain.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/singlton/singleton02.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        <state relative-caret-position="30">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/check2/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
         </state>
       </provider>
     </entry>
