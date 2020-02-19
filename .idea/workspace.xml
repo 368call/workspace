@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="daab75fe-a4a7-4dad-ad9d-d04ce5ae7bca" name="Default Changelist" comment="增加插入排序：希尔排序完成">
-      <change afterPath="$PROJECT_DIR$/src/com/company/Tree/buildTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+    <list default="true" id="daab75fe-a4a7-4dad-ad9d-d04ce5ae7bca" name="Default Changelist" comment="栈实现队列">
+      <change afterPath="$PROJECT_DIR$/../整合/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/workspace/META-INF/workspace.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/workspace/META-INF/workspace.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/pop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/pop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../workspace01" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -56,11 +58,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Tree/buildTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-792">
-              <caret line="72" selection-start-line="72" selection-end-line="72" />
+            <state relative-caret-position="283">
+              <caret line="95" column="9" selection-start-line="95" selection-start-column="9" selection-end-line="95" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Stack/ConStructQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-423">
+              <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+              <folding>
+                <element signature="e#262#270#0" expanded="true" />
+                <element signature="e#310#318#0" expanded="true" />
+                <element signature="e#382#383#0" expanded="true" />
+                <element signature="e#412#413#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -136,6 +153,7 @@
         <option value="$PROJECT_DIR$/src/com/company/check2/main.java" />
         <option value="$PROJECT_DIR$/src/com/company/Tree.java" />
         <option value="$PROJECT_DIR$/src/com/company/Tree/buildTree.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Stack/StacktoQue.java" />
       </list>
     </option>
   </component>
@@ -151,8 +169,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -170,13 +188,6 @@
               <item name="workspace" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="company" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="workspace" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
-              <item name="Tree" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -282,7 +293,9 @@
       <workItem from="1581871859189" duration="616000" />
       <workItem from="1581872549269" duration="695000" />
       <workItem from="1581910475914" duration="598000" />
-      <workItem from="1581951739879" duration="953000" />
+      <workItem from="1581951739879" duration="1736000" />
+      <workItem from="1582003427650" duration="68000" />
+      <workItem from="1582125011809" duration="594000" />
     </task>
     <task id="LOCAL-00001" summary="增加插入排序：直接插入排序">
       <created>1580625391521</created>
@@ -347,11 +360,18 @@
       <option name="project" value="LOCAL" />
       <updated>1580958353194</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="构建二叉树">
+      <created>1581954961108</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1581954961108</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49627000" />
+    <option name="totallyTimeSpent" value="51072000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -366,7 +386,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27211797" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25201073" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -375,16 +395,16 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.70710456" visible="true" weight="0.32719547" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.70710456" weight="0.32719547" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32831326" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.69302946" weight="0.28895184" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.69101876" visible="true" weight="0.2917847" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3298193" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.29289544" side_tool="true" visible="true" weight="0.32719547" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="11" sideWeight="0.30898124" side_tool="true" visible="true" weight="0.2917847" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3298193" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -451,7 +471,9 @@
     <MESSAGE value="横竖有序的二维数组查找关键字&#10;剑指offer第三题" />
     <MESSAGE value="字符串空格替换，使用StringBuffer" />
     <MESSAGE value="字符串空格替换" />
-    <option name="LAST_COMMIT_MESSAGE" value="字符串空格替换" />
+    <MESSAGE value="构建二叉树" />
+    <MESSAGE value="栈实现队列" />
+    <option name="LAST_COMMIT_MESSAGE" value="栈实现队列" />
   </component>
   <component name="editorHistoryManager">
     <entry file="https://github.com/first-develop/shoppingMall.git">
@@ -460,10 +482,18 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/4d80c8f3-3d17-4fc2-a1c8-5e471db6f101/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Tree.java" />
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="7" column="42" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/check2/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -502,24 +532,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Tree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="2" column="18" lean-forward="true" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/check2/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Tree/buildTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-792">
-          <caret line="72" selection-start-line="72" selection-end-line="72" />
+        <state relative-caret-position="283">
+          <caret line="95" column="9" selection-start-line="95" selection-start-column="9" selection-end-line="95" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Stack/ConStructQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-423">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+          <folding>
+            <element signature="e#262#270#0" expanded="true" />
+            <element signature="e#310#318#0" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
+            <element signature="e#412#413#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
