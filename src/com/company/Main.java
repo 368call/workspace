@@ -17,7 +17,7 @@ public class Main {
                     {2,4,9,12},
                     {4,7,10,13},
                     {6,8,11,15}};
-
+        int[] a7={3,5,9,4,6,7,1,0,5};
         pop.laobiao1pop(a);
         for (int i = 0; i <a.length ; i++) {
             System.out.print(a[i]);
@@ -57,6 +57,9 @@ public class Main {
             System.out.print(a6[i]);
         }
 System.out.println( Fine.fine(s7,9,4,4));
+        pop.CountSocrt(a7);
     }
+
+
 }
 

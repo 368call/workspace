@@ -193,4 +193,31 @@ class pop{
             a[leftpart+i] = temp[i];
         }
     }
+
+    //桶排序思想：不需要比较的排序算法
+    //计数排序
+
+    public  static  void CountSocrt(int []a){
+        int [] count=new int[10];
+
+        for (int i = 0; i <a.length ; i++) {
+            count[a[i]]++;
+        }
+        System.out.println(count.toString());
+
+        for (int i = 0,j=0; i <count.length ; i++) {
+            while (count[i]>0)
+            {
+                a[j++]=i;
+                count[i]--;
+            }
+        }
+        for (int i = 0; i <a.length ; i++) {
+            System.out.print(a[i]);
+        }
+    }
+
+
+    //桶排序思想：基数排序
+
 }
