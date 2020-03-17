@@ -2,6 +2,8 @@ package com.company;
 
 import com.company.check2.Fine;
 
+import java.util.List;
+
 public class Main {
 
 
@@ -18,6 +20,10 @@ public class Main {
                     {4,7,10,13},
                     {6,8,11,15}};
         int[] a7={3,5,9,4,6,7,1,0,5};
+        String x="0A";
+        String y=new String("0A");
+       System.out.println( x.hashCode());
+       System.out.println(x.equals(y)+" "+x==y);
         pop.laobiao1pop(a);
         for (int i = 0; i <a.length ; i++) {
             System.out.print(a[i]);
@@ -58,6 +64,7 @@ public class Main {
         }
 System.out.println( Fine.fine(s7,9,4,4));
         pop.CountSocrt(a7);
+
     }
 
 
