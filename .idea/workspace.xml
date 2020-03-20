@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="daab75fe-a4a7-4dad-ad9d-d04ce5ae7bca" name="Default Changelist" comment="栈实现队列">
-      <change afterPath="$PROJECT_DIR$/src/com/company/BinaryTree/BuildTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/BinaryTree/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/BinaryTree/TreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Fibonacci/Fibonacci.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Fibonacci/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/BinaryNumberOf/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/BinaryNumberOf/NumberOf1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Power/Power.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../整合/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/workspace/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/workspace/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/workspace/com/company/pop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/workspace/com/company/pop.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Fibonacci/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Fibonacci/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../workspace01" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -46,26 +42,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="66" selection-start-line="66" selection-end-line="66" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Stack/ConStructQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="16" column="36" lean-forward="true" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
-              <folding>
-                <element signature="e#296#304#0" expanded="true" />
-                <element signature="e#344#352#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="480">
+              <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -75,22 +55,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
               <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
-              <folding>
-                <element signature="e#167#168#0" expanded="true" />
-                <element signature="e#201#202#0" expanded="true" />
-                <element signature="e#261#262#0" expanded="true" />
-                <element signature="e#289#290#0" expanded="true" />
-                <element signature="e#328#329#0" expanded="true" />
-                <element signature="e#362#363#0" expanded="true" />
-                <element signature="e#395#396#0" expanded="true" />
-                <element signature="e#422#423#0" expanded="true" />
-                <element signature="e#464#465#0" expanded="true" />
-                <element signature="e#496#497#0" expanded="true" />
-                <element signature="e#530#531#0" expanded="true" />
-                <element signature="e#558#559#0" expanded="true" />
-                <element signature="e#602#603#0" expanded="true" />
-                <element signature="e#636#637#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -98,7 +62,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/BinaryTree/BuildTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
+            <state relative-caret-position="510">
               <caret line="17" column="68" selection-start-line="17" selection-start-column="68" selection-end-line="17" selection-end-column="68" />
             </state>
           </provider>
@@ -107,17 +71,57 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Fibonacci/Fibonacci.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+            <state relative-caret-position="480">
+              <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Fibonacci/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/BinaryNumberOf/NumberOf1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="990">
+              <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/BinaryNumberOf/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/company/Fibonacci/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Power/Power.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+            <state relative-caret-position="210">
+              <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/lang/Object.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1310">
+              <caret line="147" column="19" selection-start-line="147" selection-start-column="19" selection-end-line="147" selection-end-column="19" />
+              <folding>
+                <element signature="e#5748#5749#0" expanded="true" />
+                <element signature="e#5784#5785#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -169,14 +173,17 @@
         <option value="$PROJECT_DIR$/src/com/company/BinaryTree/BuildTree.java" />
         <option value="$PROJECT_DIR$/src/com/company/Fibonacci/Fibonacci.java" />
         <option value="$PROJECT_DIR$/src/com/company/Fibonacci/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/company/BinaryNumberOf/NumberOf1.java" />
+        <option value="$PROJECT_DIR$/src/com/company/BinaryNumberOf/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Power/Power.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-5" />
+    <option name="x" value="-10" />
     <option name="y" value="-10" />
-    <option name="width" value="1750" />
-    <option name="height" value="1055" />
+    <option name="width" value="1939" />
+    <option name="height" value="1049" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -184,8 +191,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -209,12 +214,14 @@
               <item name="workspace" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="company" type="462c0819:PsiDirectoryNode" />
-              <item name="Fibonacci" type="462c0819:PsiDirectoryNode" />
+              <item name="Power" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -226,7 +233,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../整合/shoppingMall" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
@@ -246,7 +253,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
+  <component name="RunManager" selected="Application.Power">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.BinaryTree.Main" />
       <module name="workspace" />
@@ -273,6 +280,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.BinaryNumberOf.Main" />
+      <module name="workspace" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.BinaryNumberOf.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
       <module name="workspace" />
@@ -283,25 +303,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="buildTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Tree.buildTree" />
+    <configuration name="Power" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Power.Power" />
       <module name="workspace" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.Tree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.check2.main" />
-      <module name="workspace" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.check2.*" />
+          <option name="PATTERN" value="com.company.Power.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -311,11 +318,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Power" />
+        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.buildTree" />
-        <item itemvalue="Application.main" />
       </list>
     </recent_temporary>
   </component>
@@ -349,7 +356,9 @@
       <workItem from="1582266473194" duration="42000" />
       <workItem from="1583307063737" duration="3552000" />
       <workItem from="1583374429030" duration="5060000" />
-      <workItem from="1584435386412" duration="6570000" />
+      <workItem from="1584435386412" duration="8015000" />
+      <workItem from="1584500235917" duration="5504000" />
+      <workItem from="1584619041403" duration="3606000" />
     </task>
     <task id="LOCAL-00001" summary="增加插入排序：直接插入排序">
       <created>1580625391521</created>
@@ -435,11 +444,18 @@
       <option name="project" value="LOCAL" />
       <updated>1583323860587</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="二叉树重建，斐波那契数列">
+      <created>1584444996702</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1584444996702</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67119000" />
+    <option name="totallyTimeSpent" value="77674000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -454,7 +470,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26206434" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26876676" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -469,7 +485,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49932975" weight="0.32719547" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.68766755" weight="0.5750708" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.68766755" weight="0.3937677" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3298193" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.2955764" side_tool="true" weight="0.32719547" />
@@ -573,7 +589,8 @@
     <MESSAGE value="构建二叉树" />
     <MESSAGE value="栈实现队列" />
     <MESSAGE value="计数排序" />
-    <option name="LAST_COMMIT_MESSAGE" value="计数排序" />
+    <MESSAGE value="二叉树重建，斐波那契数列" />
+    <option name="LAST_COMMIT_MESSAGE" value="二叉树重建，斐波那契数列" />
   </component>
   <component name="editorHistoryManager">
     <entry file="https://github.com/first-develop/shoppingMall.git">
@@ -619,13 +636,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2280">
-          <caret line="99" column="22" selection-start-line="99" selection-start-column="22" selection-end-line="99" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-529">
@@ -640,16 +650,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="66" selection-start-line="66" selection-end-line="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/pop.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6450">
@@ -657,14 +657,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1920">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Stack/ConStructQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="16" column="36" lean-forward="true" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
-          <folding>
-            <element signature="e#296#304#0" expanded="true" />
-            <element signature="e#344#352#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="480">
+          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -672,22 +678,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
-          <folding>
-            <element signature="e#167#168#0" expanded="true" />
-            <element signature="e#201#202#0" expanded="true" />
-            <element signature="e#261#262#0" expanded="true" />
-            <element signature="e#289#290#0" expanded="true" />
-            <element signature="e#328#329#0" expanded="true" />
-            <element signature="e#362#363#0" expanded="true" />
-            <element signature="e#395#396#0" expanded="true" />
-            <element signature="e#422#423#0" expanded="true" />
-            <element signature="e#464#465#0" expanded="true" />
-            <element signature="e#496#497#0" expanded="true" />
-            <element signature="e#530#531#0" expanded="true" />
-            <element signature="e#558#559#0" expanded="true" />
-            <element signature="e#602#603#0" expanded="true" />
-            <element signature="e#636#637#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/BinaryTree/BuildTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="17" column="68" selection-start-line="17" selection-start-column="68" selection-end-line="17" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Fibonacci/Fibonacci.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Fibonacci/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/BinaryNumberOf/NumberOf1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -698,24 +716,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/BinaryTree/BuildTree.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/BinaryNumberOf/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="17" column="68" selection-start-line="17" selection-start-column="68" selection-end-line="17" selection-end-column="68" />
+        <state relative-caret-position="120">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Fibonacci/Fibonacci.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/lang/Object.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+        <state relative-caret-position="-1310">
+          <caret line="147" column="19" selection-start-line="147" selection-start-column="19" selection-end-line="147" selection-end-column="19" />
+          <folding>
+            <element signature="e#5748#5749#0" expanded="true" />
+            <element signature="e#5784#5785#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Fibonacci/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/Power/Power.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+        <state relative-caret-position="210">
+          <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
         </state>
       </provider>
     </entry>

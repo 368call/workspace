@@ -6,7 +6,7 @@ public class Main {
         System.out.println(Fibonacci.Test1(1));
    System.out.println(Fibonacci.Test1(5));
         System.out.println(Fibonacci.Test2(0));
-        System.out.println(Fibonacci.Test2(1));
+        System.out.println(Fibonacci.Test2(3));
         System.out.println(Fibonacci.Test2(5));
     }
 }
